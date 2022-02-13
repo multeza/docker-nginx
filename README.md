@@ -23,6 +23,7 @@ Load ModSecurity module, define it at the top of your nginx.conf
     load_module modules/ngx_http_modsecurity_module.so;
 
 Activate ModSecurity
+
     http {
       ...
       ...
