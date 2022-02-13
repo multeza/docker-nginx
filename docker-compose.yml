@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  nginx:
+    image: multeza/nginx:1.21.6
+    volumes:
+      - /opt/nginx/conf:/opt/nginx/conf
+      - /opt/nginx/logs:/opt/nginx/logs
+    ports:
+      - "80:80"
+      - "443:443"
