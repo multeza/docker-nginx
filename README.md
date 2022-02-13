@@ -36,4 +36,6 @@ Activate ModSecurity
       ...
       ...
 
+  Download ModSecurity Core Rules Set
   
+    ./updateCoreRuleSet.sh
